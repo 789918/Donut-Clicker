@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Donut Machine Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="bakerLink" href="#">Fred the Baker Baking Company!</a>
+            <a href="https://orteil.dashnet.org/cookieclicker/">The Cookie Clicker</a>
+            <a id="contact" href="#">Contact Me</a>
+        </nav>
+        <div id="bakerInfo">Fred the Baker got his humble beginnings from taking anything he could find and baking into pies. He has now really moved on up to the donut-making world to the extent that he now has a veritable machine cranking out the donuts. Go ahead! Give it a shot!<br>
+        </div>
+        <div id="Demo">
+            
+        </div>
+    </header>
+    <main>
+        <section id="donut">
+            <p>Click the button for a donut</p>
+            <div><button class="donutBtn" onclick="addDonut()"><img id="donutPic" src="images/imgdut.jpeg"></button></div>
+            <p>Your current donut count</p>
+            <div id="donutCount">0</div>
+        </section>
+        <br>
+        <p id="sassyComment"> you can play it by clicking the donut picture!</p>
+        
+        <br>
+        <section id="purchases">
+            <div id="autoBox">
+                <p>Number of Auto-Clickers</p>
+                <div class="auto">0</div>
+                <br>
+                <div><button class="autoBtn">Buy Auto-Clicker</button></div>
+                <p>Cost for next Auto-Clicker</p>
+                <div class="autoPrice">100</div>
+            </div>
+            <div id=multiBox>
+                <p>Number of Multipliers</p>
+                <div class="multiplier">0</div>
+                <br>
+                <div><button class="multiBtn">Buy Multiplier</button></div>
+                <p>Cost for next Multiplier</p>
+                <div class="multiPrice">10</div>
+                <p>Current Multiplier</p>
+                <div class="incrementor">1.00</div>
+            </div>
+        </section>
+        <br>
+        <div id="reset"><button><a id="resetLink" href="">Reset Game</a></button></div>
+    </main>
+    <div class="container">
+        <div class="anchor"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
